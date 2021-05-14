@@ -313,7 +313,7 @@ void main()
 	rotate(&matrix, ang, 3);
 	ang += 10.0;
 // may need to gather all this into the refresh command
-	oled_init();
+	//oled_init();
 	oled_set_full_screen();
 	refresh();
 	memset(image, 0, MAXBUF);
